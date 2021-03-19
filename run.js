@@ -18,5 +18,5 @@ fs.readdir(directoryPath, function (err, files) {
     });
 
     let data = JSON.stringify(files);
-    fs.writeFileSync('fails.json', data);
+    fs.writeFileSync('output/fails.json', data);
 });
